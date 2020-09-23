@@ -1,0 +1,147 @@
+body {
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #5eaaa8;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin: 50px auto 0;
+}
+
+h2 {
+  color: #5eaaa8;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: dotted #bbbbbb 5px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 4%;
+}
+
+a {
+  color: #5eaaa8;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #a3d2ca;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #a3d2ca;
+  padding: 50px 0 20px;
+}
+
+.logo{
+  height: 200px;
+  width: 200px;
+}
+
+.intro {
+  margin: auto;
+  width: 30%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  bottom: 300px;
+  left: 300px;
+  position: absolute;
+}
+
+.profile img {
+  height: 150px;
+  width: 150px;
+}
+
+.skill-row {
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.development-skill {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.video-game-skill {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.contact-message {
+  margin: 40px auto 60px;
+  width: 40%;
+}
+
+.footer-p {
+  color: #5eaaa8;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+
+/****************** Button ******************/
+.myButton {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #5eaaa8 5%, #056676 100%);
+	background-color:#11cdd4;
+	border-radius:8px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	padding:14px 12px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #056676 5%, #5eaaa8 100%);
+	background-color:#11999e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
